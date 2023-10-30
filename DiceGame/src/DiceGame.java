@@ -42,10 +42,14 @@ public class DiceGame {
 	}
 	private static boolean didIWin(int die1, int die2, String choice)
 	{
-		
+		if((die1 + die2)%2==0 && choice.equals("even")) {
+			return true;
+		}
+		if((die1 + die2)%2==0 && choice.equals("odd")) {
+			return false;
+		}
 		return false;
 	}
-	
 	
 	private static int roll()
 	{
