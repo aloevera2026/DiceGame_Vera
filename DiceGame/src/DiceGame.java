@@ -73,7 +73,14 @@ public class DiceGame {
 				"Like try?\nYessah\nNo need","How many guys get?","yessah",
 				"Brahda ",": Even\nOdd","1 Dice: ",
 				"\n2 Dice: "," winnah!"," nevah win!",
-				"Like try again?\nYes\nNo","even","odd"
+				"Like try again?\nYessah\nNo need","even","odd"
+			},
+			//floor 2: Korean
+			{
+				"게임을 플레이고 싶나요?\n예\n아니요","플레이어가 몇 명 있어요?","예",
+				"플레이어 ","짝수\n홀수","주사위 1: ",
+				"\n주사위 2: ","승리!","패배!",
+				"게임을 플레이고 싶나요?\n예\n아니요","짝수","홀수"
 			}
 		};
 		return temp;
